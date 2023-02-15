@@ -13,12 +13,13 @@
 	<properties>
 		<spring.framework.version>5.1.6.RELEASE</spring.framework.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>8</maven.compiler.source>
-		<maven.compiler.target>8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<modules>
 		<module>module01-practice-question01</module>
-	</modules>
+        <module>module01-practice-question02</module>
+    </modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
